@@ -1,10 +1,15 @@
 var express = require('express');
 var socket = require('socket.io');
 
+
+
+var port = process.env.PORT || 8080;
+
+
 // App setup
 var app = express();
-var server = app.listen(8080, function(){
-    console.log('listening for requests on port 8080,');
+var server = app.listen(port, function() {
+	console.log('Our app is running on http://localhost:' + port);
 });
 
 // Static files
