@@ -1,16 +1,12 @@
 {
   "name": "websockets-playlist",
-  "version": "1.0.0",
   "description": "A chat app using WebSockets",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
-  "author": "The Net Ninja",
-  "license": "ISC",
-  
   "dependencies": {
-    "express": "^4.15.2",
-    "socket.io": "^1.7.3"
+    "express": "~4.15.2",
+    "socket.io": "~1.7.3"
   }
 }
