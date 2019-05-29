@@ -3,7 +3,7 @@ var socket = require('socket.io');
 
 
 
-var port =  8080;
+var port =  process.env.PORT ||8080;
 
 
 // App setup
